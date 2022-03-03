@@ -13,6 +13,7 @@
 		4F0F6B2A27D039D600801D4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0F6B1827D039D600801D4B /* ContentView.swift */; };
 		4F0F6B2B27D039D600801D4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F0F6B1927D039D600801D4B /* Assets.xcassets */; };
 		4F0F6B2C27D039D600801D4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F0F6B1927D039D600801D4B /* Assets.xcassets */; };
+		4F0F6B3627D047E700801D4B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0F6B3527D047E700801D4B /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4F0F6B1E27D039D600801D4B /* SwiftUIAPICalls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAPICalls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F0F6B2427D039D600801D4B /* SwiftUIAPICalls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAPICalls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F0F6B2627D039D600801D4B /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		4F0F6B3527D047E700801D4B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +47,7 @@
 		4F0F6B1127D039D500801D4B = {
 			isa = PBXGroup;
 			children = (
+				4F0F6B3527D047E700801D4B /* ViewModel.swift */,
 				4F0F6B1627D039D600801D4B /* Shared */,
 				4F0F6B2527D039D600801D4B /* macOS */,
 				4F0F6B1F27D039D600801D4B /* Products */,
@@ -177,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F0F6B2927D039D600801D4B /* ContentView.swift in Sources */,
+				4F0F6B3627D047E700801D4B /* ViewModel.swift in Sources */,
 				4F0F6B2727D039D600801D4B /* SwiftUIAPICallsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
